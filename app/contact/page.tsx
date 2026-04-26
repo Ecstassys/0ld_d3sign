@@ -11,15 +11,15 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "hello@olivedesignlab.com",
-    href: "mailto:hello@olivedesignlab.com",
+    value: "reacholivedesignlab@gmail.com",
+    href: "mailto:reacholivedesignlab@gmail.com",
   },
-  {
-    icon: Phone,
-    title: "Phone",
-    value: "+91 98765 43210",
-    href: "tel:+919876543210",
-  },
+  // {
+  //   icon: Phone,      
+  //   title: "Phone",
+  //   value: "+91 0000000",
+  //   href: "tel:+910000000",
+  // },
   {
     icon: MapPin,
     title: "Location",
@@ -92,7 +92,7 @@ export default function ContactPage() {
               <div className="mt-12 aspect-video rounded-lg bg-secondary flex items-center justify-center">
                 <div className="text-center">
                   <MapPin className="w-8 h-8 text-muted-foreground mx-auto mb-2" />
-                  <p className="text-muted-foreground">Anna Nagar, Chennai</p>
+                  <p className="text-muted-foreground">Villivakam, Chennai</p>
                 </div>
               </div>
             </div>
